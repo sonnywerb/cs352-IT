@@ -1,5 +1,6 @@
 **Project Overview**
-We used Python 2.7--when running the program, we did not import Python 3.
+Used Python 2.7--when running the program, we did not import Python 3.
+Implement DNS protocol for a full resolver without usage of gethostbyname or any similar functions. 
 
 **Known issues**
 Certain websites prohibit a user from directly connecting via an IP address.
