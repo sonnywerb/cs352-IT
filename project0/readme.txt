@@ -1,9 +1,3 @@
-**Group:**
-
-1. Derrick Shi - dcs198
-2. Eric Chan - ec810
-
-
 **Known issues**
 
 
