@@ -1,6 +1,6 @@
 **Project Overview**
 Used Python 2.7--when running the program, we did not import Python 3.
-Implement DNS protocol for a full resolver without usage of gethostbyname or any similar functions. 
+Server socket that sends a UDP message to Google DNS server and ask for the IP address without usage of gethostbyname or any similar functions and returns it back to the client.
 
 **Known issues**
 Certain websites prohibit a user from directly connecting via an IP address.
