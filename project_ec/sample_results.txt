@@ -1,0 +1,18 @@
+google.com. IN A 172.217.9.238
+google.com. IN TYPE1 \# 4 acd90a2e
+google.com. IN NS ns1.google.com.
+google.com. IN NS ns4.google.com.
+google.com. IN NS ns2.google.com.
+google.com. IN NS ns3.google.com.
+google.com. IN TXT "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e"
+google.com. IN TXT "facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95"
+google.com. IN TXT "docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
+google.com. IN TXT "v=spf1 include:_spf.google.com ~all"
+google.com. IN TXT "globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="
+m.facebook.com. IN CNAME star-mini.c10r.facebook.com.
+google.com. IN MX 10 aspmx.l.google.com.
+google.com. IN MX 30 alt2.aspmx.l.google.com.
+google.com. IN MX 20 alt1.aspmx.l.google.com.
+google.com. IN MX 50 alt4.aspmx.l.google.com.
+google.com. IN MX 40 alt3.aspmx.l.google.com.
+google.com. IN TYPE28 \# 16 2607f8b040060803000000000000200e

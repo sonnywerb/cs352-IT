@@ -1,0 +1,74 @@
+﻿This is an easy extra credit project. A working client code is given to you in Client.py; this is the same client as project 1.  Your job is again to write the corresponding server code. Provided for you is a working version of project 1 server for you to extend. The goal of the server is to reply to the client with the correct text representation of the records requested.
+
+
+
+
+You must support the following record types:
+NS, A, TXT, CNAME, MX for these record types you must represent them with the normal representation, to find out what that is you can make a dig query for these record types and see what it looks like. Examples are also provided to help you. All records should be IN class.
+
+
+You must also support printing unknown record types using the method described in https://tools.ietf.org/html/rfc3597 section 5.  Text Representation.
+
+
+Just like in project 1 you may not use functions meant for DNS. You are allowed to use the helper functions and the project 1 solutions which are included in this assignment.
+
+
+If the DNS server at 8.8.8.8 sends many answers, send all of them back to the client separated by a new line. Since the domain name is now part of the string order no longer matters.
+
+
+Any code that is copied from anywhere without citation INCLUDING POSTED RESOURCES or fellow classmates will be considered a violation of the academic integrity policy and dealt with appropriately. To clarify, you may use code from the posted resources, but you must cite the resource you used.
+
+
+How we will test your programs
+------------------------------
+
+
+As part of your submission, you will turn in one program:Server.py and one README file (more on this below). We will be running the two programs on the ilab machines with Python 2.7 or python 3.6 . NOTE: if you want to use my helper functions, they only support python 3.6 Please indicate which one you used in the README.
+
+
+Please do not assume that all programs will run on the same machine or that all
+connections are made to the local host.  We reserve the right to test your
+programs with local and remote socket connections, for example with Client.py,
+And Server.py each running on a different machine. You are welcome to
+simplify the initial development and debugging of your project, and get off the
+ground by running all programs on one machine first. However, you must
+eventually ensure that the programs can work across multiple machines.
+
+
+The programs must work with the following command lines:
+
+
+python Server.py PORT
+python Client.py SERVERADDRESS PORT
+
+
+An example of this would be:
+python Server.py 5444
+python Client.py vi.cs.rutgers.edu 5444
+
+
+By default the client reads from a file called source_strings.txt and writes to a file called results.txt
+
+
+
+
+README file
+-----------
+
+
+In addition to your programs, you must also submit a README file with clearly
+delineated sections for the following.
+
+
+0. Please write down the full names and netids of both your team members.
+1. Are there known issues or functions that aren't working currently in your
+   attached code? If so, explain. (note that you will get half credit for any reasonably sized bug that is fully explained in the readme)
+3. What problems did you face developing code for this project? Around how long did you spend on this project (This helps me decide what I need to explain more clearly for the next projects)
+
+
+Submission
+----------
+
+
+Turn in your project on Sakai assignments. Only one team member needs to
+submit. Please DO NOT ZIP your files you must submit Server.py and README

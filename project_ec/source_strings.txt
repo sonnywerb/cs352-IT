@@ -1,0 +1,7 @@
+google.com A
+google.com TYPE1
+google.com NS
+google.com TXT
+m.facebook.com CNAME
+google.com MX
+google.com TYPE28
