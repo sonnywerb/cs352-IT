@@ -1,4 +1,4 @@
-We used Python 3 for this project.
+Used Python 3 for this project.
 
 **Project Overview**
 Implement the DNS protocol for a full resolver without usage of gethostbyname or any similar functions.
